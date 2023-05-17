@@ -25,3 +25,10 @@ phylophlan -i /home/mariada/Genome-Analysis-2023/genome_analysis/DNA_data/09_phy
 
 #133_genome
 phylophlan -i /home/mariada/Genome-Analysis-2023/genome_analysis/DNA_data/09_phylophlan/prokka133/ -d phylophlan --diversity high -f ~/Genome-Analysis-2023/genome_analysis/DNA_data/09_phylophlan/envs/configs/supermatrix_aa.cfg
+
+#classification
+#129
+phylophlan_metagenomic -i /home/mariada/Genome-Analysis-2023/genome_analysis/DNA_data/09_phylophlan/input/metagenome_bins -d SGB.Jul20
+
+#133
+phylophlan_metagenomic -i /home/mariada/Genome-Analysis-2023/genome_analysis/DNA_data/09_phylophlan/input/metagenome133 -d /proj/genomeanalysis2023/nobackup/work/mariada/phylophlan_databases/SGB.Jul20
